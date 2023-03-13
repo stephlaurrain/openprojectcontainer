@@ -1,6 +1,6 @@
 all: build
 
-PROJECT=opnclssrm
+PROJECT=jiliti-opnprjct
 CONTAINER_NAME=open_project_ctn
 IMAGE_NAME=open_project_img
 DOCKER_USER=docker
