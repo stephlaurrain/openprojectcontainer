@@ -1,0 +1,12 @@
+chromeprofile
+kept
+src
+notes.md
+onecontainer.md
+open_project_ctn.tar
+tmp
+trsh
+docker/prod
+docker/build/Dockerfile copy
+docker/build/Dockerfile
+docker/build/conf/supervisord.conf

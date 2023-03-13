@@ -1,0 +1,23 @@
+version: '3.3'
+
+services:
+    open_project_img:
+        ports:
+            - '8080:80'
+        environment:
+            - OPENPROJECT_SECRET_KEY_BASE= 
+            - 'OPENPROJECT_HOST__NAME=localhost:8080'
+            - OPENPROJECT_HTTPS=false
+            - POSTGRES_PASSWORD=
+            - POSTGRES_USER=postgres
+        volumes:      
+        - ./src:/root
+        - ./docker/build/install:/root/install
+        image: 'openproject/community:12' 
+        container_name: open_project_ctn
+
+
+
+
+
+
